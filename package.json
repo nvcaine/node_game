@@ -1,15 +1,36 @@
 {
-  "name": "socket",
-  "subdomain": "nvcaine.socket",
-  "scripts": {
-    "start": "app.js"
+  "name": "NodeGame",
+  "version": "1.0.0",
+  "description": "Multiplayer demo using Socket.io",
+  "keywords": [
+    "OpenShift",
+    "Node.js",
+    "application",
+    "openshift"
+  ],
+  "author": {
+    "name": "Romi Halasz",
+    "email": "romi@romualdhalasz.com",
+    "url": "http://www.romualdhalasz.com/"
   },
-  "version": "0.0.1",
+  "homepage": "http://nodegame-mpdemo.rhcloud.com/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/openshift/origin-server"
+  },
+
   "engines": {
-    "node": "0.6.x"
+    "node": ">= 0.6.0",
+    "npm": ">= 1.0.0"
   },
+
   "dependencies": {
-    "express": "^4.10.2",
-    "socket.io": "^1.4.3"
-  }
+    "express": "~4.10.2",
+    "socket.io": "~1.4.3"
+  },
+  "devDependencies": {},
+  "bundleDependencies": [],
+
+  "private": true,
+  "main": "app.js"
 }
